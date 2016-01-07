@@ -20,7 +20,9 @@ var replaceBlank = function(array) {
 		while(array[i] == ' ') {
 			if(array[i+1] != ' ' && array[i+1] != undefined) {
 				console.log(array[i+1]);
-				result[j++] = '%20';
+				result[j++] = '%';
+				result[j++] = '2';
+				result[j++] = '0';
 			}
 			i++;
 		}
