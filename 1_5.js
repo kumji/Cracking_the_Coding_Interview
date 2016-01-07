@@ -7,6 +7,7 @@ var compression = function(array) {
 	var tempChar, result = [];
 	result[0] = tempChar = array[0];
 	var i = j = count = 1;
+	
 
 	while(i < array.length) {
 
